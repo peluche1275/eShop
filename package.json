@@ -1,0 +1,23 @@
+{
+  "name": "eshop",
+  "version": "1.0.0",
+  "description": "eShop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peluche1275/eShop.git"
+  },
+  "author": "Nathan Altomare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peluche1275/eShop/issues"
+  },
+  "homepage": "https://github.com/peluche1275/eShop#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
