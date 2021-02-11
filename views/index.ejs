@@ -1,1 +1,7 @@
-<p>Hello world!</p>
+<% for( let i = 0; i < locals.itemList.length; i++ ) { %>
+    <div class="product">
+        <img src="<%= locals.itemList[i].picture %>" alt="product">
+        <p class="productTitle"><%= locals.itemList[i].item %></p>
+        <p class="productPrice"><%= locals.itemList[i].prix %></p>
+    </div>
+<% } %>
