@@ -3,7 +3,7 @@ const {MongoClient} = require('mongodb');
 const app = express()
 
 // Mongodb preparation
-const uri = "mongodb+srv://nathan:@nA1996plch@cluster0.sglyo.mongodb.net/test?retryWrites=true&w=majority"
+const uri = require("./uri")
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 async function connectToDatabase(){
